@@ -6,7 +6,7 @@ export default function Movie(props) {
 
   let id = 1;
   // Change ^^^ that line and use a hook to obtain the :id parameter from the URL
-
+//Text for initial push
   useEffect(() => {
     axios
       .get(`http://localhost:5000/api/movies/${id}`) // Study this endpoint with Postman
